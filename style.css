@@ -88,7 +88,10 @@ footer p {
     padding-top: 20vw;
     width: 100%;
     height: 100%;
-
+    background-clip: url(img/splash.mp4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #top_text {
@@ -286,8 +289,8 @@ footer p {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
-    width: 30vw;
-    height: 30vw;
+    width: 28vw;
+    height: 28vw;
     border-radius: 50%;
     position: relative;
     top: 20px;
@@ -307,6 +310,43 @@ footer p {
     z-index: 2;
     text-align: center;
 }
+
+#cv_icon_education {
+    background-image: url(img/education_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    z-index: 2;
+    border: 4px solid #FF9F55;
+    margin-bottom: 50px;
+}
+
+#cv_icon_work {
+    background-image: url(img/work_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    z-index: 2;
+    border: 4px solid #FF9F55;
+    margin-bottom: 50px;
+}
+
 
 .content h2,
 #about h2 {
@@ -352,7 +392,7 @@ footer p {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 50%;
+    width: 55%;
 }
 
 /* The circles on the timeline */
@@ -373,7 +413,7 @@ footer p {
 /* Place the container to the left */
 
 .left {
-    left: 0;
+    left: -56px;
 }
 
 /* Place the container to the right */
@@ -398,6 +438,14 @@ footer p {
 }
 
 /* Add arrows to the right container (pointing left) */
+
+#fakediv {
+    color: aquamarine;
+    right: 20px;
+    background-color: black;
+    font-family: cursive;
+
+}
 
 .right::before {
     content: " ";

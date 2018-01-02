@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".timeline").slideDown(5500);
+    $(".timeline").slideDown(5000);
     $(".container_drop").click(function () {
         $(".container_drop").toggleClass("change");
         $(".dropdown").slideToggle();
