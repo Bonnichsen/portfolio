@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $(".timeline").slideDown(5000);
+    $("#page_wrapper").slideDown(8000);
     $(".container_drop").click(function () {
         $(".container_drop").toggleClass("change");
         $(".dropdown").slideToggle();
