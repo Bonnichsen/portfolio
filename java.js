@@ -84,9 +84,9 @@ $(document).ready(function () {
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
+            document.getElementById("top_bttn").style.display = "block";
         } else {
-            document.getElementById("myBtn").style.display = "none";
+            document.getElementById("top_bttn").style.display = "none";
         }
     }
 });
