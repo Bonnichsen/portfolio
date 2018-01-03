@@ -1,9 +1,32 @@
 $(document).ready(function () {
-    $(".timeline").slideDown(5000);
-    $("#page_wrapper").slideDown(8000);
     $(".container_drop").click(function () {
         $(".container_drop").toggleClass("change");
         $(".dropdown").slideToggle();
+    });
+
+    $(".nav_home").click(function () {
+        $(".timeline").slideUp();
+        $("#page_wrapper").slideUp();
+        $(".portfolio_text").hide();
+        $(".cv_text").hide();
+        $(".home_text").show();
+    });
+
+    $(".nav_cv").click(function () {
+        $("#page_wrapper").hide();
+        $(".timeline").slideDown(5000);
+        $(".timeline").show();
+        $(".home_text").hide();
+        $(".portfolio_text").hide();
+        $(".cv_text").show();
+    });
+
+    $(".nav_portfolio").click(function () {
+        $(".timeline").hide();
+        $("#page_wrapper").slideDown(5000);
+        $(".home_text").hide();
+        $(".cv_text").hide();
+        $(".portfolio_text").show();
     });
 
     $(".project").click(function () {
