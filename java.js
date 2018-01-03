@@ -65,6 +65,12 @@ $(document).ready(function () {
     $("#stilartsite").click(function () {
         $("#info_stilartsite").slideDown("slow");
     });
+    $("#intro_video").click(function () {
+        $("#info_intro").slideDown("slow");
+    });
+    $("#animation_kealife").click(function () {
+        $("#info_animation_kealife").slideDown("slow");
+    });
 
     /*---------- RETURN ARROW ---------*/
     $("#slideup_arrow").on("click", SwitchBack);

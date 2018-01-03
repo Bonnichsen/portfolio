@@ -210,7 +210,7 @@ footer p {
 
 #kea_rent {
     background-image: url(img/kea_rent_mock_dark.jpg);
-    height: 30vw;
+    height: 39.63vw;
 
 }
 
@@ -218,6 +218,16 @@ footer p {
     background-image: url(img/flatdesign.jpg);
     height: 33.3vw;
 
+}
+
+#intro_video {
+    background-image: url(img/intro_video_mockup.jpg);
+    height: 36.3vw;
+}
+
+#animation_kealife{
+    background-image: url(img/animation.png);
+    height: 33.3vw;
 }
 
 /*------ PROJECT INFORMATION ------*/
