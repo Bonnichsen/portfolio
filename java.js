@@ -6,14 +6,14 @@ $(document).ready(function () {
 
     $(".nav_home").click(function () {
         $(".timeline").slideUp();
-        $("#page_wrapper").slideUp();
+        $("#portfolio_wrapper").slideUp();
         $(".portfolio_text").hide();
         $(".cv_text").hide();
         $(".home_text").show();
     });
 
     $(".nav_cv").click(function () {
-        $("#page_wrapper").hide();
+        $("#portfolio_wrapper").hide();
         $(".timeline").slideDown(5000);
         $(".timeline").show();
         $(".home_text").hide();
@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     $(".nav_portfolio").click(function () {
         $(".timeline").hide();
-        $("#page_wrapper").slideDown(5000);
+        $("#portfolio_wrapper").slideDown(7000);
         $(".home_text").hide();
         $(".cv_text").hide();
         $(".portfolio_text").show();
@@ -75,4 +75,23 @@ $(document).ready(function () {
         $(".project_info").removeClass("active");
         console.log("Switch færdig")
     }
+
+
+    /*---- RETURN TO TOP BUTTON ----*/
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
 });
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
