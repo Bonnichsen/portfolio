@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="da">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,25 +18,24 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 </head>
-<header>
-    <div class="container_drop">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-
-        <div class="dropdown">
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#home" class="nav_home">HOME</a>
-                <a href="#cv" class="nav_cv">CV</a>
-                <a href="#portfolio" class="nav_portfolio">PORTFOLIO</a>
-            </div>
-        </div>
-    </div>
-</header>
 
 <body>
+    <header>
+        <div class="container_drop">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+            <div class="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home" class="nav_home">HOME</a>
+                    <a href="#cv" class="nav_cv">CV</a>
+                    <a href="#portfolio" class="nav_portfolio">PORTFOLIO</a>
+                </div>
+            </div>
+        </div>
+    </header>
     <button onclick="topFunction()" id="top_bttn">TOP</button>
 
     <section id="top_title">
@@ -46,10 +44,10 @@
   <source src="img/splash.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
 </video>
-        <div id="top_text">
-            <h1 id="top_text" class="home_text">BENJAMIN BONNICHSEN</h1>
-            <h1 id="top_text" class="cv_text" style="display: none;">CURRICULUM VITAE</h1>
-            <h1 id="top_text" class="portfolio_text" style="display: none;">PORTFOLIO</h1>
+        <div class="top_text">
+            <h1 class="top_text home_text">BENJAMIN BONNICHSEN</h1>
+            <h1 class="top_text cv_text" style="display: none;">CURRICULUM VITAE</h1>
+            <h1 class="top_text portfolio_text" style="display: none;">PORTFOLIO</h1>
         </div>
         <div id="nav_bar">
             <a href="#home" class="nav_home">HOME</a>
@@ -58,13 +56,13 @@
         </div>
     </section>
 
-    <div id="page_breaker" class="home_line"></div>
+    <div class="page_breaker home_line"></div>
     <div class="timeline" style="display: none;">
         <div id="cv_image"></div>
         <div id="about">
             <h2>Benjamin Ole Reinhold Bonnichsen</h2>
             <p>
-                Hej med dig, <br> Mit navn er, Benjamin Bonnichsen og jeg er 23 år.<br>Oprindeligt er jeg fra Slagelse, men det sidste halvandet år, har jeg været bosat på Borups Allé, Frederiksberg.
+                Hej med dig, <br> Mit navn er, Benjamin Bonnichsen, og jeg er 23 år.<br>Oprindeligt er jeg fra Slagelse, men det sidste halvandet år, har jeg været bosat på Borups Allé, Frederiksberg.
             </p>
             <p>Jeg interesser mig for webudvikling, design og videoproduktion i alle deres finurlige former, hvilket også ligger til grunde for, at jeg til dagligt studerer til multimediedesigner på KEA.</p>
         </div>
@@ -98,7 +96,7 @@
             <div class="content">
                 <h2>September 2017-</h2>
                 <p>
-                    Social Media Manager, Moon Bar.
+                    Social Media Manager og bartender, Moon Bar.
                 </p>
             </div>
         </div>
@@ -188,7 +186,7 @@
         <div class="project_info" id="info_tommy" style="display: none;">
             <h1>KOMMUNALVALG 2017</h1>
             <h2>TOMMY PETERSEN (B)</h2>
-            <div id="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/GxxbvYeIJMw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+            <div class="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/GxxbvYeIJMw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
 
             <div class="text">
                 <p>Jeg blev kontaktet af politiker, Tommy Petersen, som er gruppeformand for Radikale Venstre (B) i Københavns Borgerrepræsentation på Københavns Rådhus, der spurgte om jeg havde tid og lyst til at hjælpe ham i hans valgkampagne under Kommunalvalget 2017.</p>
@@ -216,7 +214,7 @@
         <div class="project_info" id="info_reachout" style="display: none;">
             <h1>GRUNDLÆGGENDE UX</h1>
             <h2>VIRKSOMHEDSCASE: REPUBLIKKEN</h2>
-            <div id="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/MNks3Sc1b6w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div class="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/MNks3Sc1b6w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="text">
                 <p>dfsfdgggdfdfgdfgdfgdfgdfgdsgd
@@ -229,14 +227,14 @@
         <div class="project_info" id="info_moonbar_probably" style="display: none;">
             <h1>MOON BAR</h1>
             <h2>THE BEST FRIDAYBAR IN THE WORLD... PROBABLY</h2>
-            <div id="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/YpAnFGAaqgg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div class="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/YpAnFGAaqgg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
 
         <div class="project_info" id="info_cphdox" style="display: none;">
             <h1>GRUNDLÆGGENDE VIDEO</h1>
             <h2>VIRKSOMHEDSCASE: CPH:DOX - EVERYDAY</h2>
-            <div id="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/nTjLay5wo2c?list=PL-M0TZm3HcBPmixuUw6lKlx6CTBdzmGX9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div class="example_video"><iframe width="794" height="420" src="https://www.youtube.com/embed/nTjLay5wo2c?list=PL-M0TZm3HcBPmixuUw6lKlx6CTBdzmGX9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <div class="project_info" id="info_sexogsamfund" style="display: none;">
@@ -278,7 +276,7 @@
 
     </div>
     <footer>
-        <div id="page_breaker"></div>
+        <div class="page_breaker"></div>
         <p>&#169; 2017 Benjamin Bonnichsen / Multimediedesigner</p>
         <p>+45 31 36 92 96 / Benj2911@stud.kea.dk</p>
         <div class="social_media_links">
