@@ -35,7 +35,7 @@ $(document).ready(function () {
         $(".project_info").removeClass("active");
         $(".project_info").addClass("active");
         $("html, body").animate({
-            scrollTop: 280
+            scrollTop: 445
         }, 800);
     });
 
