@@ -107,7 +107,7 @@ footer p {
     font-family: 'Raleway';
     font-weight: 200;
     font-size: 3.5vw;
-    padding-right: 1.5vw;
+    padding-right: 1vw;
     letter-spacing: 1vw;
     text-align: right;
     width: 100%;
@@ -120,7 +120,7 @@ footer p {
     width: 105%;
     top: -22.2vw;
     left: -5vw;
-    filter: grayscale();
+    filter: grayscale() brightness(95%);
 }
 
 #slideup_arrow {
@@ -145,11 +145,15 @@ footer p {
 
 #nav_bar a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 1.5vw;
     padding: 10px;
+}
+
+#nav_bar a:hover {
+    color: black;
 }
 
 /*----- PORTFOLIO FRAMES ------*/
@@ -176,6 +180,13 @@ footer p {
     background-image: url(img/tommy_logo.jpg);
     height: 33.3vw;
 }
+
+/*
+#tommy:hover{
+    background-image: url(img/tommy_logo.jpg);
+    filter: blur(5px);
+}
+*/
 
 #reachout {
     background-image: url(img/reachout.png);
@@ -210,7 +221,7 @@ footer p {
 
 #kea_rent {
     background-image: url(img/kea_rent_mock_dark.jpg);
-    height: 39.63vw;
+    height: 39.635vw;
 
 }
 
@@ -225,9 +236,9 @@ footer p {
     height: 36.3vw;
 }
 
-#animation_kealife{
+#animation_kealife {
     background-image: url(img/animation.png);
-    height: 33.3vw;
+    height: 33.335vw;
 }
 
 /*------ PROJECT INFORMATION ------*/
@@ -307,6 +318,40 @@ footer p {
 
 #info_moonbar_probably {}
 
+#probably_examples {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mb_videoshoot {
+    width: 30vw;
+    height: 16.8vw;
+    margin: 15px;
+}
+
+#mb_pic1 {
+    background-image: url(img/mb_videoshoot_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: contrast(1.2);
+}
+
+#mb_pic2 {
+    background-image: url(img/mb_videoshoot_2.jpg);
+    background-size: cover;
+    background-size: 120%;
+    background-position: -60px -70px;
+    background-repeat: no-repeat;
+    filter: contrast(1.2);
+}
+
+#mb_vid {
+    filter: contrast(1.2);
+}
+
 /*------ SEX OG SAMFUND ------*/
 
 #info_sexogsamfund {}
@@ -324,7 +369,7 @@ footer p {
 #cv_image {
     background-image: url(img/blogger_pic.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     background-position: bottom;
     width: 28vw;
     height: 28vw;
@@ -476,14 +521,6 @@ footer p {
 }
 
 /* Add arrows to the right container (pointing left) */
-
-#fakediv {
-    color: aquamarine;
-    right: 20px;
-    background-color: black;
-    font-family: cursive;
-
-}
 
 .right::before {
     content: " ";
@@ -678,41 +715,62 @@ header {
     .project:hover {
         opacity: 1;
     }
-
+    /*----- TOMMY PETERSEN -----*/
     #tommy {
         height: 70vw;
     }
 
+    /*----- REPUBLIKKEN: REACH OUT -----*/
     #reachout {
         height: 60vw;
     }
 
-    #animation {
-        height: 30vw;
+    /*----- ANIMATION: KEA LIFE -----*/
+    #animation_kealife {
+        height: 70vw;
     }
 
+    /*----- MOON BAR: PROBABLY -----*/
     #moonbar_probably {
         height: 60vw;
     }
 
+    #probably_examples {
+        flex-wrap: wrap;
+    }
+    .mb_videoshoot {
+        width: 100%;
+        height: 52.3vw;
+    }
+
+    /*----- CPH:DOX - EVERYDAY -----*/
     #cphdox {
         height: 56vw;
     }
 
+    /*----- SEX OG SAMFUND -----*/
     #sexogsamfund {
         height: 50vw;
     }
 
+    /*----- REDESIGN: ATLAS BAR -----*/
     #redesign {
         height: 50vw;
     }
 
+    /*----- UX: KEA RENT -----*/
     #kea_rent {
         height: 55vw;
     }
 
+    /*----- STILARTSITE: FLAT DESIGN -----*/
     #stilartsite {
         height: 70vw;
+    }
+
+    /*----- HOW TO BE A LADIES MAN -----*/
+    #intro_video {
+        height: 57.5vw;
     }
     /*------ FOOTER ------*/
     footer {
