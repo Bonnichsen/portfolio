@@ -298,13 +298,20 @@ footer p {
 
 #teasers {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #teasers iframe {
     padding: 5px;
 }
+
+@media all and (max-width: 925px) {
+    #teasers {
+        flex-wrap: wrap;
+    }
+}
+
+
 
 /*------ CPH:DOX - Everyday ------*/
 
