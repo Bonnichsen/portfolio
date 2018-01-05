@@ -22,7 +22,6 @@ body {
     height: 100%;
     flex-grow: 1;
     flex-basis: 350px;
-
 }
 
 #column_2 {
@@ -145,7 +144,7 @@ footer p {
 
 #nav_bar a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 1.5vw;
@@ -153,7 +152,7 @@ footer p {
 }
 
 #nav_bar a:hover {
-    color: black;
+    color: white;
 }
 
 /*----- PORTFOLIO FRAMES ------*/
@@ -161,18 +160,43 @@ footer p {
 .project {
     width: 100%;
     height: 450px;
-    opacity: 0.7;
+    opacity: 1;
     cursor: pointer;
     background-size: cover;
     background-position: center;
     background-color: white;
-}
-
-.project:hover {
-    opacity: 0.9;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .active {}
+
+/*----- PROJECT HOVER TEXT: W3SCHOOLS.COM -----*/
+
+.middle {
+    transition: .7s ease;
+    opacity: 0;
+    top: 100%;
+    position: sticky;
+    margin-bottom: -1px;
+}
+
+.project:hover .middle {
+    opacity: 1;
+}
+
+.project:hover {
+    opacity: 0.8;
+}
+
+.text_hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+    padding: 16px 32px;
+}
 
 /*------ PROJECTS -------*/
 
@@ -180,13 +204,6 @@ footer p {
     background-image: url(img/tommy_logo.jpg);
     height: 33.3vw;
 }
-
-/*
-#tommy:hover{
-    background-image: url(img/tommy_logo.jpg);
-    filter: blur(5px);
-}
-*/
 
 #reachout {
     background-image: url(img/reachout.png);
@@ -336,6 +353,7 @@ footer p {
     width: 30vw;
     height: 16.8vw;
     margin: 15px;
+    filter: contrast(1.2);
 }
 
 #mb_pic1 {
@@ -343,7 +361,6 @@ footer p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: contrast(1.2);
 }
 
 #mb_pic2 {
@@ -352,11 +369,6 @@ footer p {
     background-size: 120%;
     background-position: -60px -70px;
     background-repeat: no-repeat;
-    filter: contrast(1.2);
-}
-
-#mb_vid {
-    filter: contrast(1.2);
 }
 
 /*------ SEX OG SAMFUND ------*/

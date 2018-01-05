@@ -44,7 +44,6 @@ $(document).ready(function () {
             scrollTop: 445
         }, 900);
     });
-
     /*---------- PROJECT INFORMATION ------*/
 
     $("#tommy").click(function () {
