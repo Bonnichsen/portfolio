@@ -10,6 +10,7 @@ $(document).ready(function () {
         $(".portfolio_text").hide();
         $(".cv_text").hide();
         $(".home_text").show();
+        $("#slideup_arrow").hide();
         $(".active").slideUp();
         $(".project_info").removeClass("active");
     });
@@ -20,6 +21,7 @@ $(document).ready(function () {
         $(".timeline").show();
         $(".home_text").hide();
         $(".portfolio_text").hide();
+        $("#slideup_arrow").hide();
         $(".cv_text").show();
         $(".active").slideUp();
         $(".project_info").removeClass("active");
@@ -36,13 +38,14 @@ $(document).ready(function () {
     });
 
     $(".project").click(function () {
-        $("#slideup_arrow").fadeIn(700);
-        $(".active").slideUp();
-        $(".project_info").removeClass("active");
-        $(".project_info").addClass("active");
         $("html, body").animate({
             scrollTop: 445
         }, 900);
+        $("#slideup_arrow").fadeIn(700);
+        $(".active").slideUp("slow");
+        $(".project_info").removeClass("active");
+        $(".project_info").addClass("active");
+
     });
     /*---------- PROJECT INFORMATION ------*/
 

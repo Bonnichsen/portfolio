@@ -267,7 +267,7 @@ footer p {
     padding-bottom: 3vw;
 }
 
-.project_info h1 {
+.project_info h1, h2 {
     text-align: center;
     color: white;
     font-family: 'Raleway';
@@ -276,11 +276,7 @@ footer p {
 }
 
 .project_info h2 {
-    text-align: center;
-    color: white;
-    font-family: 'Raleway';
     font-size: 2vw;
-    font-weight: 100;
 }
 
 .project_info p {
@@ -288,6 +284,14 @@ footer p {
     font-family: 'Open Sans';
     margin: 20px 22.5vw;
     line-height: 30px;
+}
+
+.project_info p a {
+    color: white;
+}
+
+.project_info p a:hover {
+    font-weight: 600;
 }
 
 .example_video {
