@@ -21,14 +21,14 @@ body {
     width: 100%;
     height: 100%;
     flex-grow: 1;
-    flex-basis: 350px;
+    flex-basis: 450px;
 }
 
 #column_2 {
     width: 100%;
     height: 100%;
     flex-grow: 1;
-    flex-basis: 350px;
+    flex-basis: 450px;
 }
 
 #icon {
@@ -267,6 +267,7 @@ footer p {
     width: 100%;
     height: 100%;
     padding-bottom: 3vw;
+    display: none;
 }
 
 .project_info h1,
@@ -337,16 +338,6 @@ h2 {
     height: 100%;
 }
 
-@media all and (max-width: 701px) {
-    iframe {
-        width: 100%;
-        height: 58.2vw;
-    }
-    .pic_frame {
-        width: 100%;
-    }
-}
-
 .text {
     margin: 40px 0;
 }
@@ -373,8 +364,6 @@ h2 {
 iframe {
     border: none;
 }
-
-
 
 /*------ CPH:DOX - Everyday ------*/
 
@@ -438,6 +427,44 @@ iframe {
 /*------ SEX OG SAMFUND ------*/
 
 #info_sexogsamfund {}
+
+/*-------- STILARTSITE ------*/
+
+#info_stilartsite .pic_frame {
+    width: 56.6%;
+}
+
+#stilart_styletile {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#stilart_styletile img {
+    width: 55vw;
+    height: 100%;
+}
+
+#fd_pic1 {
+    background-image: url(img/moodboard_stilart/moodboard_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fd_pic2 {
+    background-image: url(img/moodboard_stilart/moodboard_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fd_pic3 {
+    background-image: url(img/moodboard_stilart/moodboard_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /*------ KEA RENT ------*/
 
@@ -778,7 +805,7 @@ header {
 
 /*-------- Media Queries ---------- */
 
-@media all and (min-width: 701px) {
+@media all and (min-width: 901px) {
     header {
         display: none;
     }
@@ -786,7 +813,7 @@ header {
 
 /*----- MOBILE VERSION -----*/
 
-@media all and (max-width: 701px) {
+@media all and (max-width: 901px) {
 
     #nav_bar {
         display: none;
@@ -819,14 +846,6 @@ header {
         height: 60vw;
     }
 
-    #pics_examples {
-        flex-wrap: wrap;
-    }
-    .videoshoot {
-        width: 100%;
-        height: 52.3vw;
-    }
-
     /*----- CPH:DOX - EVERYDAY -----*/
     #cphdox {
         height: 56vw;
@@ -841,6 +860,7 @@ header {
     #redesign {
         height: 50vw;
     }
+
     #atlasbar_styletile img {
         width: 90%;
         height: 100%;
@@ -855,6 +875,10 @@ header {
         height: 70vw;
     }
 
+    #stilart_styletile img {
+        width: 94%;
+        height: 100%;
+    }
     /*----- HOW TO BE A LADIES MAN -----*/
     #intro_video {
         height: 57.5vw;
@@ -954,6 +978,25 @@ header {
 
     .text {
         margin: 20px 0;
+    }
+
+    .pics_examples {
+        flex-wrap: wrap;
+
+    }
+    .videoshoot {
+        width: 100%;
+        height: 52.3vw;
+    }
+    iframe {
+        width: 100%;
+        height: 58.2vw;
+    }
+    .pic_frame {
+        width: 100%;
+    }
+    #info_stilartsite .pic_frame {
+        width: 100%;
     }
 
     /*----- CV SITE ----*/
