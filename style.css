@@ -203,60 +203,60 @@ footer p {
 /*------ PROJECTS -------*/
 
 #tommy {
-    background-image: url(img/tommy_logo.jpg);
+    background-image: url(small_img/tommy.png);
     height: 33.3vw;
 }
 
 #reachout {
-    background-image: url(img/reachout.png);
+    background-image: url(small_img/reachout.png);
     height: 28vw;
 }
 
 #animation {
-    background-image: url(img/animation.png);
+    background-image: url(small_img/ss_privatsnak.png);
     height: 28vw;
 }
 
 #moonbar_probably {
-    background-image: url(img/moonbar_probably_logo.jpg);
+    background-image: url(small_img/moonbar_probably_logo.png);
     height: 32vw;
 }
 
 #cphdox {
-    background-image: url(img/likeme.jpg);
+    background-image: url(small_img/cphdox_likeme.png);
     height: 30vw;
 
 }
 
 #sexogsamfund {
-    background-image: url(img/ss_privatsnak.jpg);
+    background-image: url(small_img/ss_privatsnak.png);
     height: 26vw;
 }
 
 #redesign {
-    background-image: url(img/atlasbar.jpg);
+    background-image: url(small_img/atlasbar.png);
     height: 26vw;
 }
 
 #kea_rent {
-    background-image: url(img/kea_rent_mock_dark.jpg);
+    background-image: url(small_img/kea_rent_mock_dark.png);
     height: 39.635vw;
 
 }
 
 #stilartsite {
-    background-image: url(img/flatdesign.jpg);
+    background-image: url(small_img/flatdesign_info.jpg);
     height: 33.3vw;
 
 }
 
 #intro_video {
-    background-image: url(img/intro_video_mockup.jpg);
+    background-image: url(small_img/intro_video_mockup.png);
     height: 36.3vw;
 }
 
 #animation_kealife {
-    background-image: url(img/animation.png);
+    background-image: url(small_img/animation.png);
     height: 33.335vw;
 }
 
@@ -400,14 +400,14 @@ iframe {
 #info_moonbar_probably {}
 
 #mb_pic1 {
-    background-image: url(img/mb_videoshoot_1.jpg);
+    background-image: url(small_img/mb_videoshoot_1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #mb_pic2 {
-    background-image: url(img/mb_videoshoot_2.jpg);
+    background-image: url(small_img/mb_videoshoot_2.png);
     background-size: cover;
     background-size: 120%;
     background-position: -60px -70px;
@@ -454,21 +454,21 @@ iframe {
 }
 
 #fd_pic1 {
-    background-image: url(img/moodboard_stilart/moodboard_1.jpg);
+    background-image: url(documents/moodboard_stilart/moodboard_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #fd_pic2 {
-    background-image: url(img/moodboard_stilart/moodboard_3.jpg);
+    background-image: url(documents/moodboard_stilart/moodboard_3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #fd_pic3 {
-    background-image: url(img/moodboard_stilart/moodboard_2.jpg);
+    background-image: url(documents/moodboard_stilart/moodboard_2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
