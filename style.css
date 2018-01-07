@@ -267,7 +267,8 @@ footer p {
     padding-bottom: 3vw;
 }
 
-.project_info h1, h2 {
+.project_info h1,
+h2 {
     text-align: center;
     color: white;
     font-family: 'Raleway';
@@ -338,6 +339,20 @@ footer p {
 
 #info_cphdox {}
 
+#cph_pic1 {
+    background-image: url(img/cphdox_1.png);
+    background-size: cover;
+    background-position: 0 -20px;
+    background-repeat: no-repeat;
+}
+
+#cph_pic2 {
+    background-image: url(img/cphdox_2.png);
+    background-size: cover;
+    background-position: 0 -20px;
+    background-repeat: no-repeat;
+}
+
 /*------ REACH OUT ------*/
 
 #info_reachout {}
@@ -346,14 +361,14 @@ footer p {
 
 #info_moonbar_probably {}
 
-#probably_examples {
+#pics_examples {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
 }
 
-.mb_videoshoot {
+.videoshoot {
     width: 30vw;
     height: 16.8vw;
     margin: 15px;
@@ -758,10 +773,10 @@ header {
         height: 60vw;
     }
 
-    #probably_examples {
+    #pics_examples {
         flex-wrap: wrap;
     }
-    .mb_videoshoot {
+    .videoshoot {
         width: 100%;
         height: 52.3vw;
     }
@@ -875,6 +890,17 @@ header {
         font-family: 'Open Sans';
         margin: 20px 5vw;
         line-height: 30px;
+    }
+
+    .middle {
+        opacity: 1;
+        transition: .7s ease;
+        top: 0;
+        position: relative;
+    }
+
+    .text_hover {
+        font-size: 2.5vw;
     }
 
     .text {
