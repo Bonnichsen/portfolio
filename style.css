@@ -149,6 +149,7 @@ footer p {
     font-weight: 400;
     font-size: 1.5vw;
     padding: 10px;
+    cursor: pointer;
 }
 
 #nav_bar a:hover {
