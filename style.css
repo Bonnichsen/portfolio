@@ -74,6 +74,7 @@ footer {
     font-weight: 600;
     font-size: 1vw;
     width: 100%;
+    text-decoration: none;
 }
 
 footer p {
@@ -421,6 +422,19 @@ iframe {
     height: auto;
 }
 
+/*------ KEA RENT ------*/
+
+#atlasbar_styletile {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#atlasbar_styletile img {
+    width: 55vw;
+    height: 100%;
+}
+
 /*------ SEX OG SAMFUND ------*/
 
 #info_sexogsamfund {}
@@ -428,6 +442,7 @@ iframe {
 /*------ KEA RENT ------*/
 
 #info_kea_rent {}
+
 
 /*------- CV SITE -------*/
 
@@ -826,7 +841,10 @@ header {
     #redesign {
         height: 50vw;
     }
-
+    #atlasbar_styletile img {
+        width: 90%;
+        height: 100%;
+    }
     /*----- UX: KEA RENT -----*/
     #kea_rent {
         height: 55vw;
