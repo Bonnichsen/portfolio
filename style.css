@@ -304,6 +304,20 @@ h2 {
     padding: 20px;
 }
 
+.pics_examples {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.videoshoot {
+    width: 30vw;
+    height: 16.8vw;
+    margin: 15px;
+    filter: contrast(1.2);
+}
+
 .example_pic {
     display: flex;
     justify-content: center;
@@ -314,6 +328,11 @@ h2 {
 
 .pic_frame {
     width: 60%;
+    height: 100%;
+}
+
+.pic_frame img {
+    width: 100%;
     height: 100%;
 }
 
@@ -350,6 +369,10 @@ h2 {
     }
 }
 
+iframe {
+    border: none;
+}
+
 
 
 /*------ CPH:DOX - Everyday ------*/
@@ -378,20 +401,6 @@ h2 {
 
 #info_moonbar_probably {}
 
-#pics_examples {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.videoshoot {
-    width: 30vw;
-    height: 16.8vw;
-    margin: 15px;
-    filter: contrast(1.2);
-}
-
 #mb_pic1 {
     background-image: url(img/mb_videoshoot_1.jpg);
     background-size: cover;
@@ -405,6 +414,11 @@ h2 {
     background-size: 120%;
     background-position: -60px -70px;
     background-repeat: no-repeat;
+}
+
+#mb_vid {
+    width: 100%;
+    height: auto;
 }
 
 /*------ SEX OG SAMFUND ------*/
