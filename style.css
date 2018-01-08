@@ -490,6 +490,12 @@ iframe {
     text-align: center;
 }
 
+#kealife_moodboard {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 #info_animation_kealife .videoshoot {
     width: 20vw;
     height: 22vw;
@@ -498,6 +504,11 @@ iframe {
 }
 
 #kealife_styletile img {
+    width: 55vw;
+    height: 100%;
+}
+
+#kealife_moodboard img {
     width: 55vw;
     height: 100%;
 }
@@ -903,9 +914,9 @@ header {
     }
 
     #info_animation_kealife .videoshoot {
-    width: 25vw;
-    height: 40vw;
-}
+        width: 25vw;
+        height: 40vw;
+    }
 
     /*----- MOON BAR: PROBABLY -----*/
     #moonbar_probably {
