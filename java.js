@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     $(".nav_portfolio").click(function () {
         $(".timeline").hide();
-        $("#portfolio_wrapper").slideDown(7000);
+        $("#portfolio_wrapper").slideDown(5000);
         $(".home_text").hide();
         $(".cv_text").hide();
         $(".portfolio_text").show();
