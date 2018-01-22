@@ -40,12 +40,12 @@ $(document).ready(function () {
     $(".project").click(function () {
         $("html, body").animate({
             scrollTop: 445
-        }, 900);
+        }, 700);
         $("#slideup_arrow").fadeIn(700);
         $(".active").slideUp("slow");
         $(".project_info").removeClass("active");
         $(".project_info").addClass("active");
-
+        $("#portfolio").hide();
     });
     /*---------- PROJECT INFORMATION ------*/
 
@@ -87,7 +87,8 @@ $(document).ready(function () {
         $(".project_info").slideUp();
         $("#slideup_arrow").hide();
         $(".project_info").removeClass("active");
-        console.log("Switch færdig")
+        $("#portfolio").show();
+        console.log("Switch færdig");
     }
 
 
