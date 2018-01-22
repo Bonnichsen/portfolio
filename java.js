@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
 
     $(".nav_home").click(function () {
-        $(".timeline").slideUp();
+        $("#cv_about").slideUp();
         $("#portfolio_wrapper").slideUp();
         $(".portfolio_text").hide();
         $(".cv_text").hide();
@@ -17,8 +17,11 @@ $(document).ready(function () {
 
     $(".nav_cv").click(function () {
         $("#portfolio_wrapper").hide();
-        $(".timeline").slideDown(5000);
-        $(".timeline").show();
+        $("#cv_about").slideDown(5000);
+        $("#cv_about").show();
+        $("html, body").animate({
+            scrollTop: 445
+        }, 1350);
         $(".home_text").hide();
         $(".portfolio_text").hide();
         $("#slideup_arrow").hide();
@@ -28,8 +31,11 @@ $(document).ready(function () {
     });
 
     $(".nav_portfolio").click(function () {
-        $(".timeline").hide();
+        $("#cv_about").hide();
         $("#portfolio_wrapper").slideDown(5000);
+        $("html, body").animate({
+            scrollTop: 445
+        }, 1350);
         $(".home_text").hide();
         $(".cv_text").hide();
         $(".portfolio_text").show();
