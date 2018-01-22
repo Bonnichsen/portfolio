@@ -46,7 +46,7 @@ $(document).ready(function () {
     $(".project").click(function () {
         $("html, body").animate({
             scrollTop: 445
-        }, 700);
+        }, 900);
         $("#slideup_arrow").fadeIn(700);
         $(".active").slideUp("slow");
         $(".project_info").removeClass("active");
