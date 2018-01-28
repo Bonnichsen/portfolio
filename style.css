@@ -510,6 +510,7 @@ iframe {
 
 #cv_pic {
     position: sticky;
+    position: -webkit-sticky;
     top: 20px;
     background-image: url(img/IMG_4076_2.png);
     background-repeat: no-repeat;
